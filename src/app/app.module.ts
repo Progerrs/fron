@@ -6,6 +6,8 @@ import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import {AppRoutingModuls} from "./app-routing.moduls";
 import { MainPageComponent } from './main-page/main-page.component';
+import { CreatePageComponent } from './create-page/create-page.component';
+import { UpdatePageComponent } from './update-page/update-page.component';
 
 
 
@@ -13,7 +15,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent
+    MainPageComponent,
+    CreatePageComponent,
+    UpdatePageComponent,
   ],
   imports: [
     BrowserModule,
